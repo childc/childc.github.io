@@ -29,9 +29,12 @@ github_username: childc
 
 # Build settings
 theme: minima
+markdown: GFM
+
+#theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
-markdown: GFM
+  - jekyll-spaceship
 
 # Exclude from processing.
 # The following items will not be processed, by default.

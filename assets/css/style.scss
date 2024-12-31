@@ -1,0 +1,22 @@
+---
+# 파일 맨 위에 YAML Front Matter
+---
+
+/* 
+  1) Minimal 테마의 기본 스타일을 가져오고 싶다면 @import "jekyll-theme-minimal" 추가
+     (@import를 먼저 선언해줘야 아래 커스텀 스타일이 정상적으로 덮어쓰기가 됩니다.)
+*/
+@import "minima";
+
+/* 
+  2) 원하는 커스텀 스타일(예: h1 밑줄) 추가 
+*/
+h1 {
+  border-bottom: 1px solid #eaecef;  /* GitHub README.md와 비슷한 스타일 */
+  padding-bottom: 0.3em;
+}
+
+h2 {
+  border-bottom: 1px solid #eaecef;  /* GitHub README.md와 비슷한 스타일 */
+  padding-bottom: 0.3em;
+}
